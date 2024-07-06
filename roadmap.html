@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ role|capitalize }} Roadmap</title>
+</head>
+<body>
+    <h1>{{ role|capitalize }} Roadmap</h1>
+    <ul>
+        {% for step in roadmap %}
+            <li>{{ step }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('index') }}">Go Back</a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role Roadmap</title>
+</head>
+<body>
+    <h1>Select Your Technical Role</h1>
+    <form action="{{ url_for('roadmap') }}" method="post">
+        <select name="role">
+            <option value="data_scientist">Data Scientist</option>
+            <option value="web_developer">Web Developer</option>
+            <option value="machine_learning_engineer">Machine Learning Engineer</option>
+            <!-- Add more roles as needed -->
+        </select>
+        <button type="submit">Get Roadmap</button>
+    </form>
+</body>
+</html>
