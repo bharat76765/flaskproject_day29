@@ -11,7 +11,8 @@ This repository contains a Flask project that serves as both a client and an API
   
 - **API Service (`app(1).py`)**
   - Provides an API endpoint to serve roadmap images based on the selected technical role.
-
+![Screenshot 2024-07-18 170321](https://github.com/user-attachments/assets/2c63f549-ac04-458e-b5db-6ee3cf2bf692)
+![Screenshot 2024-07-18 170415](https://github.com/user-attachments/assets/849bd26e-3dba-4903-8584-52fa0e270dee)
 ## Technical Roles
 
 The following technical roles are included in the project, each with its own roadmap:
