@@ -8,11 +8,13 @@ This repository contains a Flask project that serves as both a client and an API
 - **Client Application (`app.py`)**
   - Displays a homepage where users can select a technical role from a dropdown menu.
   - Upon selection, it fetches the corresponding roadmap image from the API and displays it.
+![Screenshot 2024-07-18 170321](https://github.com/user-attachments/assets/2c63f549-ac04-458e-b5db-6ee3cf2bf692)
+![Screenshot 2024-07-18 170415](https://github.com/user-attachments/assets/849bd26e-3dba-4903-8584-52fa0e270dee)
   
 - **API Service (`app(1).py`)**
   - Provides an API endpoint to serve roadmap images based on the selected technical role.
-![Screenshot 2024-07-18 170321](https://github.com/user-attachments/assets/2c63f549-ac04-458e-b5db-6ee3cf2bf692)
-![Screenshot 2024-07-18 170415](https://github.com/user-attachments/assets/849bd26e-3dba-4903-8584-52fa0e270dee)
+![Screenshot 2024-07-21 091446](https://github.com/user-attachments/assets/12613ef4-d317-4f5e-b11b-bce9fef739ae)
+
 ## Technical Roles
 
 The following technical roles are included in the project, each with its own roadmap:
